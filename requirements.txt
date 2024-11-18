@@ -19,3 +19,27 @@ fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
 -e .
+
+
+#FOR LIB REF FOLLOW HERE : 
+# transformers: Provides pre-trained transformer models (like BERT, GPT) for various NLP tasks (text classification, translation, summarization, etc.).
+# transformers[sentencepiece]: Adds support for SentencePiece, a subword tokenizer used in some transformer models (e.g., T5, BART).
+# datasets: A library for easily loading and preprocessing datasets for NLP tasks, often used with Hugging Face models.
+# sacrebleu: A tool for computing BLEU score, a metric for evaluating machine translation quality.
+# rouge_score: Computes ROUGE scores, used for evaluating text generation tasks like summarization.
+# py7zr: Handles extraction of .7z compressed files, useful for working with large datasets.
+# pandas: Used for data manipulation and analysis (e.g., cleaning, transforming datasets).
+# nltk: Provides various NLP tools, including tokenization, stemming, and text processing utilities.
+# tqdm: Displays progress bars for loops and tasks, often used during long-running processes like model training.
+# PyYAML: Reads and writes YAML files, commonly used for configuration files.
+# matplotlib: Used for data visualization, e.g., plotting model performance graphs.
+# torch: The PyTorch library for deep learning, used to build and train NLP models.
+# notebook: Jupyter notebook support for interactive development and documentation.
+# boto3: AWS SDK for Python, used to interact with AWS services like S3 (e.g., for dataset storage).
+# mypy-boto3-s3: Type annotations for the boto3 S3 API, helping with static type checking.
+# python-box==6.0.2: A lightweight dictionary subclass that allows for accessing nested data using dot notation.
+# ensure==1.0.2: Used to ensure the correct installation and versions of dependencies.
+# fastapi==0.78.0: Web framework for building APIs, commonly used for serving machine learning models in production.
+# uvicorn==0.18.3: An ASGI server used to run FastAPI applications.
+# Jinja2==3.1.2: Templating engine, often used in FastAPI to generate HTML or dynamic content.
+# -e .: Installs the current project in "editable" mode, which allows you to modify your project without reinstalling it.
